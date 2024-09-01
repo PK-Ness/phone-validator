@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgb(2, 32, 50);
 }
 .sub-container{
     background-color:black;
@@ -11,9 +12,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column-reverse;
-}
+    border: 1px solid rgb(73, 70, 70)
+     }
 footer{
     text-align: center;
     padding-top: 1.2rem;
@@ -21,11 +21,77 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-.phone-button{
-    width: 50px;
-    max-height: 50px;
-    background-color: rgb(236, 11, 11);
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:50px; 
+    .camera{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 1rem;
+        margin-right: 0.3rem;
+
+    }
+    .speaker{
+        width: 50px;
+        height: 10px;
+        background-color: white;
+        border-radius: 10%;
+        margin-top: 1rem;
+        margin-right: 0.3rem;
+    }
+    .phone-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            }
+    .phone-button{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(30, 28, 28);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.6rem;
+        border-radius: 50%;
+        border: 1px solid rgb(97, 95, 95);
+    }
+    .screen{
+        width: 300px;
+        height: 490px;
+        background-color: gray;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-title, .subtitle{
+    color:aliceblue;
+    font-family: Calibri, sans-serif;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: cemter;
+        margin-top: 12.2rem;
+    }
+    #input{
+        margin-top: 8rem;
+        width: 280px;
+        text-align: center;
+        border-radius: 2px;
+        border: none;
+    }
+    button{
+        width: 100px;
+        border-radius: 4px;
+        border: 0.5px solid rgb(47, 46, 46);
+        box-shadow: 1px 1px 3px ;
+        background: linear-gradient(to top right, rgb(192, 188, 188) 30%, white 90%);
+    
+    }
+    .output{
+        background-color: rgb(237, 228, 233);
+        width: 280px;
+        height: 50px;
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
     }
