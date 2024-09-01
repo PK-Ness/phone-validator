@@ -1,0 +1,31 @@
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-container{
+    background-color:black;
+    height: 600px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer{
+    text-align: center;
+    padding-top: 1.2rem;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.phone-button{
+    width: 50px;
+    max-height: 50px;
+    background-color: rgb(236, 11, 11);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50px; 
+    }
