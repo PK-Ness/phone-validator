@@ -96,9 +96,6 @@ footer{
         margin-right: auto;
         border-radius: 4px;
     }
-    #clear-btn:hover{
-        background-color: rgb(138, 150, 239);
-    }
     #check-btn:hover{
-        background-color: beige;
+        background-color: blue;
     }

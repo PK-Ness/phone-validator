@@ -8,7 +8,7 @@ clearButton.addEventListener('click', () => {
 });
 checkButton.addEventListener('click', () => {
     const phoneNumber = userInput.value.trim();
-    const usPhoneNumberPattern = /^(1\s*)?\(?\d{3}\)?[\s-]*\d{3}[\s-]*\d{4}$/;
+    const usPhoneNumberPattern = /^(1\s?)?(\(\d{3}\)|\d{3})[\s-]?\d{3}[\s-]?\d{4}$/;
     if (userInput.value.trim() === '') {
         alert('Please provide a phone number');
     } else if (usPhoneNumberPattern.test(phoneNumber)) {
@@ -19,4 +19,3 @@ resultsDiv.innerHTML = `Invalid US number: ${phoneNumber}`;
                 resultsDiv.className = 'invalid'; 
             }
 });
-
