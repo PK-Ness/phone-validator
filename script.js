@@ -18,4 +18,8 @@ checkButton.addEventListener('click', () => {
 resultsDiv.innerHTML = `Invalid US number: ${phoneNumber}`;
                 resultsDiv.className = 'invalid'; 
             }
+            if (isNaN(phoneNumber)) {
+                resultsDiv.innerHTML = `Invalid Input. Please insert numbers only.`;
+                        resultsDiv.className = 'invalid';
+            }
 });
